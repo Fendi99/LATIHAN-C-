@@ -1,0 +1,11 @@
+1. merge() = menggabungkan list dengan list lain
+2. pop_front() = menghapus elemen pertama dari list.
+3. push_front() =  menambahkan elemen didepan list.
+4. remove() = menghapus elemen-elemen dari list.
+5. remove_if() = menghapus elemen jika memenuhi predikat.
+6. reverse() = membalikkan list.
+7. sort() = mengurutkan list dari nilai terkecil ke terbesar.
+8. splice() = fungsi ini menghapus elemen dari satu list ke list lain.
+9. unique() = fungsi ini menghapus elemen-elemen duplikat bertetangga.
+	      list diurutkan lebih dahulu untuk membuat elemen-elemen duplikat
+	      menjadi bertetangga. 

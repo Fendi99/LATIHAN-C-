@@ -1,0 +1,12 @@
+	=STL VECTOR=
+
+//Pendeklarasian object
+syntax : vector<int> vec;
+
+//Menampilkan ukuran vector
+	vec.size(); 
+syntax : (nama_object.size();)
+
+//Memasukkan value kedalam vector
+	vec.push_back(x);
+syntax : (nama_object.push_back(value);)

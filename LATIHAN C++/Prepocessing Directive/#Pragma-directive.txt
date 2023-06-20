@@ -1,0 +1,22 @@
+	=PREPROCESSOR DIRECTIVE=
+
+preprocessor directive digunakan untuk menyediakan informasi tambahan kepada kompiler apa yang harus
+dilakukan sebelum mengcompile program.
+#pragma digunakan untuk memberitahu beberapa perlakuan special ketika mengeksekusi kode program.
+
+syntax:
+
+	#pragma token_name fucntion/assignment
+contoh :
+	#pragama startup printf("Hello World")
+
+beberapa pragma token yang saya ketahui:
+1. #pragma startup : sebelum mengeksekusi main(), function yang ditentukan di pragma akan dijalankan
+2. #pragma exit : sebelum program berakhir, function yang ditentukan di pragma akan dijalankan
+3. #pragma warn : digunakan untuk menyembunyikan warning message
+4. #pragma GCC dependency :mengecek tanggal sekarang dan file lainnya, jika file lainnya baru- baru ini maka 
+			   akan menampilkan warning message 
+5. #pragma GCC system_header : memperlakukan kode file saat ini seakan akan dari system header
+6. #pragma GCC poison : digunakan untuk memblokir sebuah identifier dari program
+7. #pragma region
+8. #pragma endregion{ #pragma region harus diakhiri dengan #pragma endregion}

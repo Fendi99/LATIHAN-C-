@@ -1,0 +1,13 @@
+			====Mingw.h juga menginclude header====
+
+#include "_mingw_mac.h"
+#include "_mingw_secapi.h"
+#include "_cygwin.h"
+
+/* mendefinisikan long32 = long untuk architectur 32 bit */
+#ifndef __LP64__
+#define __LONG32 long
+
+#else /*mendefinisikan long32 = int untuk architecture 64 bit */
+#define __LONG32 int
+#endif 
